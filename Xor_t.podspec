@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Xor/Encrypt/**/*.{h,m}"
+  s.source_files  = "Xor/Encrypt/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -117,7 +117,7 @@ Pod::Spec.new do |s|
   #  the lib prefix of their name.
   #
 
-  s.frameworks = "UIKit", "Foundation"
+  s.frameworks = "Foundation"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
