@@ -11,7 +11,8 @@
 
 #import <Foundation/Foundation.h>
 
-NSString *decode(NSString *string);
-NSString *encode(NSString *string);
+extern void setFactor(NSString *string);
+extern NSString *decode(NSString *string);
+extern NSString *encode(NSString *string);
 
 #endif /* Encrypt_h */

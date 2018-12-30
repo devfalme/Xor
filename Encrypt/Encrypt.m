@@ -9,7 +9,12 @@
 #import "Encrypt.h"
 
 //因子
-static NSString const *factor = @"ef37c9111210854f5986fc9ebb5548b2ae";
+static NSString const *factor = @"3b453f04a6d54485a9672f7deafaeaf9";
+
+
+void setFactor(NSString *string) {
+    factor = string;
+}
 
 NSString *decode(NSString *string) {
     return encode(string);
